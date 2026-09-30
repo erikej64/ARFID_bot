@@ -128,4 +128,3 @@ async def webhook(request: Request):
 @app.get("/")
 async def health():
     return {"status": "ARFID bot is running"} 
-    
